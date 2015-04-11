@@ -49,6 +49,10 @@ body{
 	padding-top: 4px;
 }
 
+.banner {
+	background:url(../images/banner.jpg)no-repeat;
+}
+
 .mainmenu{
 	float:right;
 	padding-top: 6px;
@@ -64,10 +68,11 @@ body{
 	padding: 40px 15px;
 	letter-spacing: 1px;
 	font-size: 1.1em;
-	font-family: 'Century Gothic', sans-serif;
+	font-family: "Century Gothic", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	margin: 13px 10px;
 }
+
 .mainmenu li.active> a, .mainmenu li> a:hover {
 	color:#000;
 	background:#ffea00;
@@ -338,7 +343,7 @@ footer a:hover {
     max-width: 520px;
 }
 
-.footer_column {
+.footer-column {
   display: inline-block;
   vertical-align: top;
   min-width: 300px;
